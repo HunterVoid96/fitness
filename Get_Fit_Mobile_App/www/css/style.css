@@ -53,20 +53,45 @@ table {
 body {
 	margin: 0 auto;
 	max-width: 650px;
-	background-color: #eeeeee;
+	background-color: #fff;
+	font-size: 16px;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 nav { 
 	text-align: center;
 	width: 100%;
 	height: 60px;
-	background-color: #2ECC71;
+	background-color: #fff;
 	position:fixed;
 	bottom: 0;
 	border-top-style: solid;
     list-style-type: none;
     max-width: 650px;
+
+	
 }
+h1 {
+	font-family: 'Roboto';
+	color: black;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 40px;	
+	padding-right: 130px;
+}
+
+h2 {
+	
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 40px;	
+}
+li {
+    display: inline-block;
+    padding-top: 17px;
+}
+
 
 div#container {
 	height: auto;
@@ -75,10 +100,17 @@ div#container {
 div#nav {
 	height: 10%;
 	width: 100%;
+	
+}
+form {
+	margin-left: auto;
+	margin-right: auto;
+	width:650px;
 }
 div#main_header {
-	height: 15em;
-	background-color: #eeeeee;
+	height: 9em;
+	background-color: #fff;
+	
 }
 
 

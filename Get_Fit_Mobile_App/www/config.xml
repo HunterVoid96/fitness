@@ -6,13 +6,13 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Application Lifecycle Test</name>
+    <name>Get Fit!</name>
 
     <description>
-        A sample application that counts the occurances of lifecycle events.
+        A fitness application that allows the user to see how many steps they have taken and the calories they have burned. 
     </description>
 
-    <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
+    <author href="#" email="weeb1_14@uni.worc.ac.uk">
         WBS Computing
     </author>
 
