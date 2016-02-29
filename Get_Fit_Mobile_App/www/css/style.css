@@ -1,0 +1,134 @@
+/*
+CSS reset code to avoid any cross-broswer differences that may impact the application. 
+ttp://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+body {
+	margin: 0 auto;
+	max-width: 650px;
+	background-color: #eeeeee;
+}
+
+nav { 
+	text-align: center;
+	width: 100%;
+	height: 60px;
+	background-color: #2ECC71;
+	position:fixed;
+	bottom: 0;
+	border-top-style: solid;
+    list-style-type: none;
+    max-width: 650px;
+}
+
+div#container {
+	height: auto;
+}
+
+div#nav {
+	height: 10%;
+	width: 100%;
+}
+div#main_header {
+	height: 15em;
+	background-color: #eeeeee;
+}
+
+
+/* Fluid Grid Setup */
+
+/* 1 Column of 12 */
+.column1_12 {
+	width: 8.33%;
+}
+/* 2 Columns of 12 */
+.column2_12 {
+	width: 16.66%;
+}
+/* 3 Columns of 12 */
+.column3_12 {
+	width: 24.99%;
+}
+/* 4 Columns of 12 */
+.column4_12 {
+	width: 33.32%;
+}
+/* 5 Columns of 12 */
+.column5_12 {
+	width: 41.65%;
+}
+/* 6 Columns of 12 */
+.column6_12 {
+	width: 49.98%;
+}
+/* 7 Columns of 12 */
+.column7_12 {
+	width: 58.31%;
+}
+/* 8 Columns of 12 */
+.column8_12 {
+	width: 66.64%;
+}
+/* 9 Columns of 12 */
+.column9_12 {
+	width: 74.97%;
+}
+/* 10 Columns of 12 */
+.column10_12 {
+	width: 83.30%;
+}
+/* 11 Columns of 12 */
+.column11_12 {
+	width: 91.63%;
+}
+/* 12 Columns of 12 */
+.column12_12 {
+	width: 100%;
+}

@@ -6,10 +6,10 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Fitness</name>
+    <name>Application Lifecycle Test</name>
 
     <description>
-        
+        A sample application that counts the occurances of lifecycle events.
     </description>
 
     <author href="worcester.ac.uk" email="c.bowers@worc.ac.uk">
@@ -19,4 +19,5 @@
     <preference name="permissions"                value="none"/>   
 	
 	<access origin="*"/>
+	<icon src="icon.png">
 </widget>
