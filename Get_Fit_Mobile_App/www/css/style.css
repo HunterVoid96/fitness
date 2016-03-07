@@ -53,45 +53,21 @@ table {
 body {
 	margin: 0 auto;
 	max-width: 650px;
-	background-color: #fff;
-	font-size: 16px;
-	font-family: 'Merriweather Sans', sans-serif;
+	background-color: #eeeeee;
+	font-family: 'Lato', sans-serif;
 }
 
 nav { 
 	text-align: center;
 	width: 100%;
 	height: 60px;
-	background-color: #fff;
+	background-color: #2ECC71;
 	position:fixed;
 	bottom: 0;
 	border-top-style: solid;
     list-style-type: none;
     max-width: 650px;
-
-	
 }
-h1 {
-	font-family: 'Roboto';
-	color: black;
-	font-size: 20px;
-	text-align: center;
-	padding-top: 40px;	
-	padding-right: 130px;
-}
-
-h2 {
-	
-	color: white;
-	font-size: 1.5em;
-	text-align: center;
-	padding-top: 40px;	
-}
-li {
-    display: inline-block;
-    padding-top: 17px;
-}
-
 
 div#container {
 	height: auto;
@@ -100,17 +76,10 @@ div#container {
 div#nav {
 	height: 10%;
 	width: 100%;
-	
-}
-form {
-	margin-left: auto;
-	margin-right: auto;
-	width:650px;
 }
 div#main_header {
-	height: 9em;
-	background-color: #fff;
-	
+	height: 15em;
+	background-color: #eeeeee;
 }
 
 
@@ -163,4 +132,83 @@ div#main_header {
 /* 12 Columns of 12 */
 .column12_12 {
 	width: 100%;
+}
+h1 {
+	padding-top:20px;
+	font-size: 2.5em;
+	text-align:center;
+	padding-right: 70px;
+	height: 100px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h3{
+	font-size:2.5em;
+	height: 100px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	text-align:center;
+	padding-right: 70px;
+	text-transform: uppercase;
+letter-spacing: 1px;
+color: #444444;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+}
+
+input {
+	font-size:16px;
+}
+input[name="fitnesstracker"]{
+	background: #f997b0;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f997b0), to(#f56778));
+    background: -moz-linear-gradient(#f997b0, #f56778);
+    background: linear-gradient(#f997b0, #f56778);
+    border: solid 1px #ee8090;
+    border-bottom: solid 3px #cb5462;
+    box-shadow: inset 0 0 0 1px #fbc1d0;
+    color: #913944;
+    text-shadow: 0 1px 0 #f9a0ad;
+	height: 100px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	font-size: 1.5em;
+	font-family: 'Lato';
+
+}
+
+input[name="goals"]{
+	 background: #abe4f8;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#abe4f8), to(#74d0f4));
+    background: -moz-linear-gradient(#abe4f8, #74d0f4);
+    background: linear-gradient(#abe4f8, #74d0f4);
+    border: solid 1px #8cc5d9;
+    border-bottom: solid 3px #589cb6;
+    box-shadow: inset 0 0 0 1px #cdeffb;
+    color: #42788e;
+    text-shadow: 0 1px 0 #b6e6f9;
+	height: 100px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	font-size: 1.5em;
+	font-family: 'ralewaylight';
+}
+
+input[name="me"]{
+	 background: #c4e125;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
+    background: -moz-linear-gradient(#c4e125, #88a819);
+    background: linear-gradient(#c4e125, #88a819);
+    border: solid 1px #829c15;
+    border-bottom: solid 3px #819d15;
+    box-shadow: inset 0 0 0 1px #c6da7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #819d15; 
+	height: 100px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	font-size: 1.5em;
+	font-family: 'ralewaylight';
 }
