@@ -7,14 +7,15 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Weather API demo</name>
+    <name>Get Fit!</name>
 
     <description>
-        An example of using a simple weather API
+   Get Fit!
+A fitness application that allows the user to see how many steps they have taken and the calories they have burned.
     </description>
 
-    <author href="http://www.worcester.ac.uk/discover/chris-bowers.html" email="c.bowers@worc.ac.uk">
-        Chris P. Bowers
+    <author href="#" email="weeb1_14@uni.worc.ac.uk">
+        Ben Weeks
     </author>
 	
 	<!-- add plugins required for OAuth.io -->
