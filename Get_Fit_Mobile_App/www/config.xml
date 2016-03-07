@@ -11,8 +11,7 @@
     <name>Get Fit!</name>
 
     <description>
-   Get Fit!
-A fitness application that allows the user to see how many steps they have taken and the calories they have burned.
+   Get Fit! A fitness application that allows the user to see how many steps they have taken and the calories they have burned.
     </description>
 
     <author href="#" email="weeb1_14@uni.worc.ac.uk">
@@ -23,7 +22,8 @@ A fitness application that allows the user to see how many steps they have taken
 	
 	<!-- give access to all domains in the outside world -->
 
-	<access origin="*" />
-
-	<icon src="icon.png">
+	<access origin="*"/>
+	
+	<icon src="icon.png"/>
+	
 </widget>
