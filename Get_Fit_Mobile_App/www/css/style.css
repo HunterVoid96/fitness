@@ -259,7 +259,7 @@ div#ft_btn_save {
 	margin-left: 8.33%;
 	height: 45px;
 	position:relative;
-	right:-40px;
+	right:-100px;
 }
 input[type="text_type"]{ 
     color: #fff;
