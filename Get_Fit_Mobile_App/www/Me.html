@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>  <!-- Head starts here -->
+	<!-- Viewport to achieve responsiveness on smaller screens. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title of application -->
+	<title>Get Fit!</title>
+	<!-- CSS link -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<!-- JavasScript files -->
+	<script src="script.js"></script>
+</head> <!-- Head ends here -->
+<body> <!-- Body Starts Here -->
+	<div id="container" class="column12_12"> <!-- Page container starts here, 12 of 12 columns. -->
+
+		<div id="main_header" class="column12_12"> <!-- Header section starts here. -->
+			<h1> Get Fit! </h1>
+			<h3> Me </h3>
+		</div> <!-- Header section ends here. -->
+		 <!-- Form for buttons -->
+				<div id="height_entrance" class="column10_12"> <!-- Start of food type entrance -->
+			<input type="text_type" id="heightType" placeholder="Height">
+		</div> <!-- End of food type entrance -->
+		
+		<div id="weight_entrance" class="column10_12"> <!-- Start of calories amount entrance -->
+			<input type="text_type" id="weight" placeholder="Weight">
+		</div> <!-- End of calories amount entrance -->
+
+		<div id="ft_btn_save" class="column5_12"> <!-- Start of save button -->
+			<input type="button_add" id="save" value="Add Food" onclick="addDietItem(); return false;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</div> <!-- End of save button -->
+<br>
+		
+
+		<div id="footer" class="column12_12"> <!-- Footer Section Starts Here -->
+		
+		</div> <!-- Footer Section Ends Here -->
+<div id="nav" class="column12_12"> <!-- Nav Section Starts Here -->
+					<nav> <!-- Nav Starts Here -->
+						<ul>
+							<li><a href="index.html">Main Menu</a></li>
+ 							<li><a href="food_tracker.html">Fitness Tracker</a></li>
+  							<li><a href="gym_locator.html" id="goals">Goals</a></li>
+						</ul> 
+					</nav> <!-- Nav Ends Here -->
+				</div> <!-- Nav Section Ends Here -->
+
+	</div> <!-- Page container ends here -->
+</body> <!-- Body Ends Here -->
+</html> <!-- HTML Ends Here -->
