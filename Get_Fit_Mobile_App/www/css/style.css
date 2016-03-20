@@ -99,16 +99,7 @@ div#main_header {
 	height: 15em;
 	background-color: #eeeeee;
 }
-input[type="button_save"]{ 
-    color: #fff;
-  	background-color: #2ECCFA;
-  	border: none;
-    width: 100%;
-    height:45px;
-    text-align: center;
-    float:left;
-    padding:0;
-}
+
 
 /* Fluid Grid Setup */
 
@@ -160,6 +151,7 @@ input[type="button_save"]{
 .column12_12 {
 	width: 100%;
 }
+/* Style for headers */
 h1 {
 	padding-top:40px;
 	font-size: 3em;
@@ -239,19 +231,32 @@ input[name="me"]{
 }
 
 
-/* Styles for Food Type Entrance Box */
-div#height_entrance{
+/* Styles for height field box */
+div#height_field{
 	background-color: #eeeeee;
 	margin-left: 8.33%;
 	margin-right: 8.33%;
 	height: 50px;
+	
+	
 }
-/* Styles for Calories Amount Entrance Box */
-div#weight_entrance{
+/* Styles for wieght field box */
+div#weight_field{
 	background-color: #eeeeee;
 	margin-left: 8.33%;
 	margin-right: 8.33%;
 	height: 50px;
+	
+}
+/* Styles for input */
+input[type="number"]{ 
+    color: #fff;
+  	background-color: #D8D8D8;
+  	border: none;
+    width: 100%;
+    height:45px;
+    text-align: center;
+    padding:0;
 }
 /* Styles for Save Button */
 div#ft_btn_save {
@@ -261,15 +266,18 @@ div#ft_btn_save {
 	position:relative;
 	right:-75px;
 }
-input[type="text_type"]{ 
+input[type="button_save"]{ 
     color: #fff;
-  	background-color: #D8D8D8;
+  	background-color: #2ECCFA;
   	border: none;
     width: 100%;
     height:45px;
     text-align: center;
+    float:left;
     padding:0;
+
 }
+
 div#footer {
 	height: 20px;
 	background-color: #eeeeee;
