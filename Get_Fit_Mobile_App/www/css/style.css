@@ -162,7 +162,7 @@ h1 {
     text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
 }
 
-h3{
+h2{
 	font-size:2.5em;
 	margin-bottom:15px;
 	margin-top: 10px;
@@ -256,7 +256,7 @@ div#height_field{
 	
 	
 }
-/* Styles for wieght field box */
+/* Styles for weight field box */
 div#weight_field{
 	background-color: #eeeeee;
 	margin-left: 8.33%;
@@ -264,7 +264,7 @@ div#weight_field{
 	height: 30px;
 	
 }
-
+/* Styles for steps field box */
 div#steps_field{
 	background-color: #eeeeee;
 	margin-left: 8.33%;
@@ -272,6 +272,7 @@ div#steps_field{
 	height: 30px;
 		
 }
+/* Styles for distance field box */
 div#distance_field{
 	background-color: #eeeeee;
 	margin-left: 8.33%;
@@ -279,6 +280,7 @@ div#distance_field{
 	height: 30px;
 		
 }
+/* Styles for active minutes field box */
 div#active_field{
 	background-color: #eeeeee;
 	margin-left: 8.33%;
@@ -286,6 +288,7 @@ div#active_field{
 	height: 30px;
 		
 }
+/* Styles for calories field box */
 div#cal_field{
 	background-color: #eeeeee;
 	margin-left: 8.33%;
