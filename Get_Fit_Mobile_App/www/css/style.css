@@ -264,6 +264,37 @@ div#weight_field{
 	height: 30px;
 	
 }
+
+div#steps_field{
+	background-color: #eeeeee;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	height: 30px;
+		
+}
+div#distance_field{
+	background-color: #eeeeee;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	height: 30px;
+		
+}
+div#active_field{
+	background-color: #eeeeee;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	height: 30px;
+		
+}
+div#cal_field{
+	background-color: #eeeeee;
+	margin-left: 8.33%;
+	margin-right: 8.33%;
+	height: 30px;
+		
+}
+
+
 /* Styles for input */
 input[type="number"]{ 
     color: #fff;
