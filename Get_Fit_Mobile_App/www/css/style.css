@@ -75,13 +75,12 @@ a {
 nav { 
 	text-align: center;
 	width: 100%;
-	height: 60px;
+	height: 100px;
+	left:0;
+	bottom:0;
 	background-color: #2ECCFA;
-	position:fixed;
-	bottom: 0;
-	border-top-style: solid;
-    list-style-type: none;
-    max-width: 650px;
+	position:absolute;
+	
 }
 a:hover { 
    font-weight: 300;
@@ -229,7 +228,7 @@ input[name="me"]{
 	font-size: 1.5em;
 	font-family: 'Lato';
 }
-input[name="me2"]{
+input[name="save2"]{
 	 background: #c4e125;
     background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
     background: -moz-linear-gradient(#c4e125, #88a819);
@@ -240,13 +239,32 @@ input[name="me2"]{
     color: #fff;
     text-shadow: 0 1px 0 #819d15; 
 	height: 50px;
+
 	margin-left: 8.33%;
 	margin-top: 5px;
 	margin-bottom:15px;
 	font-size: 1.5em;
 	font-family: 'Lato';
 }
-
+input[name="reset"]{
+	 background: #c4e125;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
+    background: -moz-linear-gradient(#c4e125, #88a819);
+    background: linear-gradient(#c4e125, #88a819);
+    border: solid 1px #829c15;
+    border-bottom: solid 3px #819d15;
+    box-shadow: inset 0 0 0 1px #c6da7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #819d15; 
+	height: 50px;
+	width: 250px;
+	margin-left:5%;
+	margin-top: 5px;
+	margin-bottom:15px;
+	font-size: 1.5em;
+	font-family: 'Lato';
+	
+}
 /* Styles for height field box */
 div#height_field{
 	background-color: #eeeeee;
@@ -308,27 +326,8 @@ input[type="number"]{
     text-align: center;
     padding:0;
 }
-/* Styles for Save Button */
-div#ft_btn_save {
-	background-color: #eeeeee;
-	margin-left: 8.33%;
-	height: 45px;
-	position:relative;
-	right:-75px;
-}
-input[type="button_save"]{ 
-    color: #fff;
-  	background-color: #2ECCFA;
-  	border: none;
-    width: 100%;
-    height:45px;
-    text-align: center;
-    float:left;
-    padding:0;
 
-}
 
-div#footer {
-	height: 20px;
-	background-color: #eeeeee;
-}
+
+
+

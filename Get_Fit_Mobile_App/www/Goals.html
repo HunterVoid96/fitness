@@ -10,7 +10,7 @@
 	<!-- Google font link -->
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<!-- JavasScript files -->
-	<script src="script.js"></script>
+	<script src="index.js"></script>
 </head> <!-- Head ends here -->
 <body> <!-- Body Starts Here -->
 	<div id="container" class="column12_12"> <!-- Page container starts here, 12 of 12 columns. -->
@@ -19,6 +19,7 @@
 			<h1> Get Fit! </h1>
 			<h2> Goals </h2>
 		</div> <!-- Header section ends here. -->
+		<form id="myForm">
 				<div id="steps_field" class="column10_12"> <!-- Start of stepsfield -->
 			<input type="number" id="StepsType" placeholder="Steps" min = "0">
 		</div> <!-- End of height in steps field -->
@@ -29,15 +30,29 @@
 		<br>
 		<br>
 		<div id="active_field" class="column10_12"> <!-- Start of active minutes field -->
-			<input type="number" id="activeType" placeholder="Active Minutes" min ="0">
+			<input type="number" id="ActiveType" placeholder="Active Minutes" min ="0">
 						</div><!-- End of active minutes field -->
 			<br><br>
 
-		<div id="cal_field" class="column10_12"> <!-- Start of calories field -->
-			<input type="number" id="caloriesType" placeholder="Calories Burned" min ="0">
+		<div id="cal_field" class="column10_12"> 
+			<input type="number" id="CaloriesType" placeholder="Calories Burned" min ="0">
 		</div> <!-- End of calories field -->
 <br><br>
-		<input type="button" name="me2" class="column10_12" value="Save" onclick=window.location.href="#" /><!-- End of save button -->
+		<input type="button" name="save2" class="column10_12" value="Save" onclick="TimeStamp" /><!-- End of save button -->
+
+		<!-- Function time stamp to record the time of an individual user, for local storage -->
+		</form>
+			<script>
+
+function TimeStamp() {
+    var d = new Date();
+    var n = d.getTime();
+  
+}
+function myFunction() {
+    document.getElementById("myForm").reset();
+}
+</script>
 <br>
 		
 
@@ -48,7 +63,7 @@
 					<nav> <!-- Nav Starts Here -->
 						<ul>
 							<li><a href="index.html">Main Menu</a></li>
- 							<li><a href="#">Fitness Tracker</a></li>
+ 							<li><a href="fttracker.html">Fitness Tracker</a></li>
   							<li><a href="Me.html" id="goals">Me</a></li>
 						</ul> 
 					</nav> <!-- Nav Ends Here -->
