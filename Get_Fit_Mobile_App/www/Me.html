@@ -12,6 +12,36 @@
 	<!-- JavasScript files -->
 	<script src="index.js"></script>
 </head> <!-- Head ends here -->
+ <script>
+function save() {
+    var field1 = document.getElementById('heightType').value;
+	var field2= document.getElementById('Age').value;
+	var field3= document.getElementById('weightType').value;
+	localStorage.setItem('number0', field1);
+	localStorage.setItem('number1', field2);
+	localStorage.setItem('number2', field3);
+}
+function load() {
+
+var storedValue = localStorage.getItem('number');
+if(storedValue) {
+document.getElementById('heightType').value = storedValue;
+
+}
+var storedValue2 = localStorage.getItem('number1');
+if(storedValue2) {
+document.getElementById('Age').value = storedValue2;
+
+}
+var storedValue3 = localStorage.getItem('number2');
+if(storedValue3) {
+document.getElementById('weightType').value = storedValue3;
+
+}
+}
+
+</script>
+<body onload="load()">
 <body> <!-- Body Starts Here -->
 	<div id="container" class="column12_12"> <!-- Page container starts here, 12 of 12 columns. -->
 
@@ -20,6 +50,8 @@
 			<h2> Me </h2>
 		</div> <!-- Header section ends here. -->
 		 <!-- Form for buttons -->
+		
+
 				<div id="height_field" class="column10_12"> <!-- Start of height field -->
 			<input type="number" id="heightType" placeholder="Height, FT" min = "0">
 		</div> <!-- End of height in ft field -->
@@ -33,18 +65,13 @@
 			<input type="number" id="weightType" placeholder="Weight, Ibs" min ="0">
 		</div> <!-- End of wieght in Ib field -->
 <br><br>
-		<input type="button" name="save2" class="column10_12" value="Save" onclick="addItems"/><!-- End of save button -->
-			<div id="ft_btn_reset" class="column5_12">
+
+		<input type="button" name="save2" class="column10_12" value="Save" onclick="save()"/><!-- End of save button -->
+		
 		
    			 <br>
 			<!-- Function time stamp to record the time of an individual user, for local storage -->
-		<script>
-function TimeStamp() {
-    var d = new Date();
-    var n = d.getTime();
-   
-}
-</script>
+		
 
 		</div>
 
