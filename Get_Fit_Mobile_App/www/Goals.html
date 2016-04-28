@@ -12,43 +12,8 @@
 	<!-- JavasScript files -->
 	<script src="index.js"></script>
 </head> <!-- Head ends here -->
-<script>
-function save2() {
-    var field1 = document.getElementById('StepsType').value;
-	var field2= document.getElementById('DistanceType').value;
-	var field3= document.getElementById('ActiveType').value;
-	var field3= document.getElementById('CaloriesType').value;
-	localStorage.setItem('number3', field1);
-	localStorage.setItem('number4', field2);
-	localStorage.setItem('number5', field3);
-	localStorage.setItem('number6', field4);
-}
-function load2() {
 
-var storedValue = localStorage.getItem('number2');
-if(storedValue) {
-document.getElementById('StepsType').value = storedValue;
-
-}
-var storedValue2 = localStorage.getItem('number3');
-if(storedValue2) {
-document.getElementById('DistanceType').value = storedValue2;
-
-}
-var storedValue3 = localStorage.getItem('number4');
-if(storedValue3) {
-document.getElementById('ActiveType').value = storedValue3;
-
-}
-var storedValue4 = localStorage.getItem('number5');
-if(storedValue4) {
-document.getElementById('CaloriesType').value = storedValue4;
-
-}
-}
-
-</script>
-<body onload="load2()">
+<body onload="">
 <body> <!-- Body Starts Here -->
 	<div id="container" class="column12_12"> <!-- Page container starts here, 12 of 12 columns. -->
 
@@ -75,7 +40,7 @@ document.getElementById('CaloriesType').value = storedValue4;
 			<input type="number" id="CaloriesType" placeholder="Calories Burned" min ="0">
 		</div> <!-- End of calories field -->
 <br><br>
-		<input type="button" name="save2" class="column10_12" value="Save" onclick="save2()" /><!-- End of save button -->
+		<input type="button" name="save2" class="column10_12" value="Save" onclick="" /><!-- End of save button -->
 
 		<!-- Function time stamp to record the time of an individual user, for local storage -->
 		</form>
