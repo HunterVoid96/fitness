@@ -1,3 +1,4 @@
+
 function save() {
     var field1 = document.getElementById('heightType').value;
 	var field2= document.getElementById('Age').value;
@@ -24,3 +25,6 @@ document.getElementById('weightType').value = storedValue3;
 
 }
 }
+
+
+
