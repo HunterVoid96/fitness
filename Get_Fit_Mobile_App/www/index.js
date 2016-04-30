@@ -37,6 +37,7 @@ function del (){
 	localStorage.removeItem('key1');
 	document.getElementById('weightType').value;
 	localStorage.removeItem('key2');
+	location.reload();
 }
 
 /* declare save function */
@@ -89,6 +90,7 @@ function delz (){
 	localStorage.removeItem('key5');
 	document.getElementById('CaloriesType').value;
 	localStorage.removeItem('key6');
+	location.reload();
 }
 
 
