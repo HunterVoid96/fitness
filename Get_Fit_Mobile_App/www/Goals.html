@@ -12,8 +12,7 @@
 	<!-- JavasScript files -->
 	<script src="index.js"></script>
 </head> <!-- Head ends here -->
-
-<body onload="">
+<body onload="loadz()">
 <body> <!-- Body Starts Here -->
 	<div id="container" class="column12_12"> <!-- Page container starts here, 12 of 12 columns. -->
 
@@ -40,8 +39,8 @@
 			<input type="number" id="CaloriesType" placeholder="Calories Burned" min ="0">
 		</div> <!-- End of calories field -->
 <br><br>
-		<input type="button" name="save2" class="column10_12" value="Save" onclick="" /><!-- End of save button -->
-
+		<input type="button" name="save2" class="column10_12" value="Save" onclick="savez()" /><!-- End of save button -->
+        <input type="button" name="remove2" class="column10_12" value="Remove" onclick="delz()"/>
 		<!-- Function time stamp to record the time of an individual user, for local storage -->
 		</form>
 			<script>
@@ -66,7 +65,7 @@ function myFunction() {
 						<ul>
 							<li><a href="index.html">Main Menu</a></li>
  							<li><a href="fttracker.html">Fitness Tracker</a></li>
-  							<li><a href="Me.html" id="goals">Me</a></li>
+  							<li><a href="Me.html" id="me">Me</a></li>
 						</ul> 
 					</nav> <!-- Nav Ends Here -->
 				</div> <!-- Nav Div Ends Here -->

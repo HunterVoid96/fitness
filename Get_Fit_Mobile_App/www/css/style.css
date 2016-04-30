@@ -1,52 +1,61 @@
-/*
-CSS reset code to avoid any cross-broswer differences that may impact the application. 
-ttp://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
 */
 
-html, body, div, span, applet, object, iframe,
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
-	line-height: 1;
+    line-height:1;
 }
-ol, ul {
-	list-style: none;
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
 }
+
+nav ul {
+    list-style:none;
+}
+
 blockquote, q {
-	quotes: none;
+    quotes:none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content:'';
+    content:none;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
 }
 
 /* CSS */
@@ -60,7 +69,11 @@ li {
     display: inline-block;
     padding-top: 17px;
 }
-
+ .ul li a #goals{
+	padding-top:400px;
+	
+}
+/* style for links (bottom navigation) */
 a {
 	text-decoration: none;
 	text-transform: uppercase;
@@ -68,24 +81,19 @@ a {
     width: 75px;
     font-family: 'Lato';
     color: white;
-    font-size:0.8em;
+    font-size:0.9em;
 	
 }
-
+/* style for bottom navigation */
 nav { 
 	text-align: center;
 	width: 100%;
-	height: 60px;
+	height: 70px;
 	background-color: #2ECCFA;
 	position:fixed;
 	bottom: 0;
-	border-top-style: solid;
-    list-style-type: none;
     max-width: 650px;
 	font-size:17px;
-}
-a:hover { 
-   font-weight: 300;
 }
 
 div#container {
@@ -174,7 +182,7 @@ h2{
 	
 }
 
-/* button styles*/
+/* button styles code for buttons from http://www.bestcssbuttongenerator.com/ */
 input[name="fitnesstracker"]{
 	background: #f997b0;
     background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f997b0), to(#f56778));
@@ -231,7 +239,41 @@ input[name="me"]{
 	font-family: 'Lato';
 }
 input[name="save2"]{
-	 background: #c4e125;
+	background: #c4e125;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
+    background: -moz-linear-gradient(#c4e125, #88a819);
+    background: linear-gradient(#c4e125, #88a819);
+    border: solid 1px #829c15;
+    border-bottom: solid 3px #819d15;
+    box-shadow: inset 0 0 0 1px #c6da7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #819d15; 
+	height: 50px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	margin-bottom:15px;
+	font-size: 1.5em;
+	font-family: 'Lato';
+}
+input[name="remove"]{
+	background: #c4e125;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
+    background: -moz-linear-gradient(#c4e125, #88a819);
+    background: linear-gradient(#c4e125, #88a819);
+    border: solid 1px #829c15;
+    border-bottom: solid 3px #819d15;
+    box-shadow: inset 0 0 0 1px #c6da7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #819d15; 
+	height: 50px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	margin-bottom:15px;
+	font-size: 1.5em;
+	font-family: 'Lato';
+}
+input[name="remove2"]{
+	background: #c4e125;
     background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
     background: -moz-linear-gradient(#c4e125, #88a819);
     background: linear-gradient(#c4e125, #88a819);
