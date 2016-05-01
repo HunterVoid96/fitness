@@ -109,10 +109,10 @@ div#main_header {
 	background-color: #eeeeee;
 }
 
-div#timer_out {
-	text-align:center;
-	padding-left:30px;
-	font-size:50px;
+div#timer_position {
+	font-size:30px;
+	
+
 }
 
 

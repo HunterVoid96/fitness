@@ -21,7 +21,7 @@
 			<h2> Stopwatch </h2>
 		</div> <!-- Header section ends here. -->
 		<form id="myForm">
-				<div id="timer_out" class="column10_12"> 
+				<div id="timer_position" class="column10_12"> 
 				<br>
 				<br>
 				
@@ -30,22 +30,12 @@
 			0.00
 		</div> <!-- End of height in steps field -->
 		<br>
-		<input type="button" name="start_timer" class="column10_12" value="Start" onclick="start()" /><!-- End of save button -->
-        <input type="button" name="stop_timer" class="column10_12" value="Stop" onclick="stop()"/>
-		<input type="button" name="reset_timer" class="column10_12" value="Reset" onclick="reset2()"/>
-		<!-- Function time stamp to record the time of an individual user, for local storage -->
+		<input type="button" name="start_timer" class="column10_12" value="Start" onclick="start()" /><!-- Start button -->
+        <input type="button" name="stop_timer" class="column10_12" value="Stop" onclick="stop()"/><!-- Stop button -->
+		<input type="button" name="reset_timer" class="column10_12" value="Reset" onclick="reset2()"/><!-- Reset button -->
+		
 		</form>
-			<script>
-
-function TimeStamp() {
-    var d = new Date();
-    var n = d.getTime();
-  
-}
-function myFunction() {
-    document.getElementById("myForm").reset();
-}
-</script>
+			
 <br>
 		
 

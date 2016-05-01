@@ -92,7 +92,7 @@ function delz (){
 	localStorage.removeItem('key6');
 	location.reload();
 }
-//decler seconds, time and divide variables for stopwatch
+//declare seconds, time and divide variables for stopwatch
 var i,timer,divide;
 i=0;
 divide = 100;
@@ -105,7 +105,7 @@ function start ()
 //increment timer and get the seconds
 function increment () {
 	i++;
-	document.getElementById("timer_out").innerHTML = (i/divide);
+	document.getElementById("timer_position").innerHTML = (i/divide);
 }
 //stop function to stop timer
 function stop () {
