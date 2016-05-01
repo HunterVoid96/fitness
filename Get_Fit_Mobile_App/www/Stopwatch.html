@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>  <!-- Head starts here -->
+	<!-- Viewport to achieve responsiveness on small screens. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Title of application -->
+	<title>Get Fit!</title>
+	<!-- CSS link -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+	<!-- Google font link -->
+	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<!-- JavasScript files -->
+	<script src="index.js"></script>
+</head> <!-- Head ends here -->
+<body onload="loadz()">
+<body> <!-- Body Starts Here -->
+	<div id="container" class="column12_12"> <!-- Page container starts here, 12 of 12 columns. -->
+
+		<div id="main_header" class="column12_12"> <!-- Header section starts here. -->
+			<h1> Get Fit! </h1>
+			<h2> Stopwatch </h2>
+		</div> <!-- Header section ends here. -->
+		<form id="myForm">
+				<div id="timer_out" class="column10_12"> 
+				<br>
+				<br>
+				<br>
+				<br>
+			0.00
+		</div> <!-- End of height in steps field -->
+		<br>
+		<input type="button" name="start_timer" class="column10_12" value="Start" onclick="start()" /><!-- End of save button -->
+        <input type="button" name="stop_timer" class="column10_12" value="Stop" onclick="stop()"/>
+		<input type="button" name="reset_timer" class="column10_12" value="Reset" onclick="reset2()"/>
+		<!-- Function time stamp to record the time of an individual user, for local storage -->
+		</form>
+			<script>
+
+function TimeStamp() {
+    var d = new Date();
+    var n = d.getTime();
+  
+}
+function myFunction() {
+    document.getElementById("myForm").reset();
+}
+</script>
+<br>
+		
+
+		<div id="footer" class="column12_12"> <!-- Footer Starts Here -->
+		
+		</div> <!-- Footer Ends Here -->
+<div id="nav" class="column12_12"> <!-- Nav Section Starts Here -->
+					<nav> <!-- Nav Starts Here -->
+						<ul>
+							<li><a href="index.html">Main Menu</a></li>
+ 							<li><a href="fttracker.html">Fitness Tracker</a></li>
+  							<li><a href="Me.html" id="me">Me</a></li>
+								<li><a href="Goals.html" id="me">Goals</a></li>
+						</ul> 
+					</nav> <!-- Nav Ends Here -->
+				</div> <!-- Nav Div Ends Here -->
+
+	</div> <!-- End Container -->
+</body> <!-- End body -->
+</html> <!-- End HTML -->

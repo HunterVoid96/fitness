@@ -109,6 +109,11 @@ div#main_header {
 	background-color: #eeeeee;
 }
 
+div#timer_out {
+	text-align:center;
+	padding-left:50px;
+}
+
 
 /* Fluid Grid Setup */
 
@@ -163,7 +168,7 @@ div#main_header {
 /* Style for headers */
 h1 {
 	padding-top:40px;
-	font-size: 1em;
+	font-size: 1.5em;
 	text-align:center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -289,7 +294,61 @@ input[name="remove2"]{
 	font-size: 1em;
 	font-family: 'Lato';
 }
-
+input[name="start_timer"]{
+	background: #c4e125;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
+    background: -moz-linear-gradient(#c4e125, #88a819);
+    background: linear-gradient(#c4e125, #88a819);
+    border: solid 1px #829c15;
+    border-bottom: solid 3px #819d15;
+    box-shadow: inset 0 0 0 1px #c6da7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #819d15; 
+	height: 50px;
+	width:150px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	margin-bottom:15px;
+	font-size: 1em;
+	font-family: 'Lato';
+}
+input[name="stop_timer"]{
+	background: #c4e125;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
+    background: -moz-linear-gradient(#c4e125, #88a819);
+    background: linear-gradient(#c4e125, #88a819);
+    border: solid 1px #829c15;
+    border-bottom: solid 3px #819d15;
+    box-shadow: inset 0 0 0 1px #c6da7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #819d15; 
+	height: 50px;
+	width:150px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	margin-bottom:15px;
+	font-size: 1em;
+	font-family: 'Lato';
+}
+input[name="reset_timer"]{
+	background: #c4e125;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#c4e125), to(#88a819));
+    background: -moz-linear-gradient(#c4e125, #88a819);
+    background: linear-gradient(#c4e125, #88a819);
+    border: solid 1px #829c15;
+    border-bottom: solid 3px #819d15;
+    box-shadow: inset 0 0 0 1px #c6da7b;
+    color: #fff;
+    text-shadow: 0 1px 0 #819d15; 
+	height: 50px;
+	width:150px;
+	margin-left: 8.33%;
+	margin-top: 5px;
+	margin-bottom:15px;
+	font-size: 1em;
+	font-family: 'Lato';
+	
+}
 /* Styles for height field box */
 div#height_field{
 	background-color: #eeeeee;
