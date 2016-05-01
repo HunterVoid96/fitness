@@ -110,8 +110,9 @@ div#main_header {
 }
 
 div#timer_position {
-	font-size:30px;
-	
+	font-size:40px;
+	padding-top:280px;
+	padding-left:240px;
 
 }
 
