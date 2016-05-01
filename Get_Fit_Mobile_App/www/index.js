@@ -92,24 +92,27 @@ function delz (){
 	localStorage.removeItem('key6');
 	location.reload();
 }
-
+//decler seconds, time and divide variables for stopwatch
 var i,timer,divide;
 i=0;
 divide = 100;
+//start timer and get the seconds
 function start ()
 {
 	timer=self.setInterval("increment()", (1000/divide))
 }
 
+//increment timer and get the seconds
 function increment () {
 	i++;
 	document.getElementById("timer_out").innerHTML = (i/divide);
 }
-
+//stop function to stop timer
 function stop () {
 	clearInterval(timer);
 	timer=null;
 }
+//reset timer 
 function reset2()
 {
 	stop();

@@ -112,6 +112,7 @@ div#main_header {
 div#timer_out {
 	text-align:center;
 	padding-left:50px;
+	font-size:50px;
 }
 
 
@@ -198,7 +199,7 @@ input[name="fitnesstracker"]{
     box-shadow: inset 0 0 0 1px #fbc1d0;
     color: #913944;
     text-shadow: 0 1px 0 #f9a0ad;
-	height: 100px;
+	height: 80px;
 	margin-left: 8.33%;
 	margin-top: 5px;
 	margin-bottom:15px;
@@ -218,7 +219,7 @@ input[name="goals"]{
     box-shadow: inset 0 0 0 1px #cdeffb;
     color: #42788e;
     text-shadow: 0 1px 0 #b6e6f9;
-	height: 100px;
+	height: 80px;
 	margin-left: 8.33%;
 	margin-top: 5px;
 	margin-bottom:15px;
@@ -236,7 +237,7 @@ input[name="me"]{
     box-shadow: inset 0 0 0 1px #c6da7b;
     color: #fff;
     text-shadow: 0 1px 0 #819d15; 
-	height: 100px;
+	height: 80px;
 	margin-left: 8.33%;
 	margin-top: 5px;
 	margin-bottom:15px;
