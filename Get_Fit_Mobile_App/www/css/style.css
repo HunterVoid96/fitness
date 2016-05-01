@@ -105,14 +105,14 @@ div#nav {
 	width: 100%;
 }
 div#main_header {
-	height: 7em;
+	height: 12em;
 	background-color: #eeeeee;
 }
 
 div#timer_position {
 	font-size:40px;
-	
-	
+	position:relative;
+	padding-left:150px;
 
 }
 
@@ -180,7 +180,7 @@ h1 {
 
 h2{
 	font-size:2.5em;
-	margin-bottom:15px;
+	margin-bottom:100px;
 	margin-top: 10px;
 	text-align:center;
 	text-transform: uppercase;
@@ -308,7 +308,7 @@ input[name="start_timer"]{
     text-shadow: 0 1px 0 #819d15; 
 	height: 50px;
 	width:150px;
-	margin-left: 8.33%;
+	margin-left: 15.33%;
 	margin-top: 5px;
 	margin-bottom:15px;
 	font-size: 1em;
@@ -326,7 +326,7 @@ input[name="stop_timer"]{
     text-shadow: 0 1px 0 #819d15; 
 	height: 50px;
 	width:150px;
-	margin-left: 8.33%;
+	margin-left: 15.33%;
 	margin-top: 5px;
 	margin-bottom:15px;
 	font-size: 1em;
@@ -344,7 +344,7 @@ input[name="reset_timer"]{
     text-shadow: 0 1px 0 #819d15; 
 	height: 50px;
 	width:150px;
-	margin-left: 8.33%;
+	margin-left: 15.33%;
 	margin-top: 5px;
 	margin-bottom:15px;
 	font-size: 1em;
