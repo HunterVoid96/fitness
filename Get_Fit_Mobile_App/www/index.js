@@ -92,6 +92,7 @@ function delz (){
 	localStorage.removeItem('key6');
 	location.reload();
 }
+//timer-stopwatch inspired from: https://www.youtube.com/watch?v=jRhB1IG7uAw
 //declare seconds, time and divide variables for stopwatch
 var i,timer,divide;
 i=0;
@@ -117,5 +118,5 @@ function reset2()
 {
 	stop();
 	i=0;
-	document.getElementById("timer_out").innerHTML = (i/divide);
+	document.getElementById("timer_position").innerHTML = (i/divide);
 }
