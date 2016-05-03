@@ -120,3 +120,8 @@ function reset2()
 	i=0;
 	document.getElementById("timer_position").innerHTML = (i/divide);
 }
+
+document.addEventListener("deviceready", onDeviceReady, false);
+function onDeviceReady() {
+    console.log(navigator.vibrate);
+}
