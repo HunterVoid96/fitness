@@ -117,57 +117,57 @@ div#timer_position {
 }
 
 
-/* Fluid Grid Setup */
+/* Fluid Grid Setup- code inspired from http://1stwebdesigner.com/fluid-grid-layout/ */
 
-/* 1 Column of 12 */
-.column1_12 {
-	width: 8.33%;
+
+.container1_12 {
+	width: 08.33%;
 }
-/* 2 Columns of 12 */
-.column2_12 {
-	width: 16.66%;
+
+.container2_12 {
+	width: 17%;
 }
-/* 3 Columns of 12 */
-.column3_12 {
-	width: 24.99%;
+
+.container3_12 {
+	width: 25%;
 }
-/* 4 Columns of 12 */
-.column4_12 {
-	width: 33.32%;
+
+.container4_12 {
+	width: 33.33%;
 }
-/* 5 Columns of 12 */
-.column5_12 {
-	width: 41.65%;
+
+.container5_12 {
+	width: 42%;
 }
-/* 6 Columns of 12 */
-.column6_12 {
-	width: 49.98%;
+
+.container6_12 {
+	width: 50%;
 }
-/* 7 Columns of 12 */
-.column7_12 {
-	width: 58.31%;
+
+.container7_12 {
+	width: 58%;
 }
-/* 8 Columns of 12 */
-.column8_12 {
-	width: 66.64%;
+
+.container8_12 {
+	width: 67%;
 }
-/* 9 Columns of 12 */
-.column9_12 {
-	width: 74.97%;
+
+.container9_12 {
+	width: 75%;
 }
-/* 10 Columns of 12 */
-.column10_12 {
-	width: 83.30%;
+
+.container10_12 {
+	width: 83%;
 }
-/* 11 Columns of 12 */
-.column11_12 {
-	width: 91.63%;
+
+.container11_12 {
+	width: 92%;
 }
-/* 12 Columns of 12 */
-.column12_12 {
+
+.container12_12 {
 	width: 100%;
 }
-/* Style for headers */
+/* End of container */
 h1 {
 	padding-top:40px;
 	font-size: 1.5em;
