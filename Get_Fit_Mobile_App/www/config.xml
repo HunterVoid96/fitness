@@ -18,7 +18,7 @@
     <author href="#" email="weeb1_14@uni.worc.ac.uk">
         Ben Weeks
     </author>
-	<plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />
+	<gap:plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />
 	<!-- add plugins required for OAuth.io -->
 	
 	<!-- give access to all domains in the outside world -->
