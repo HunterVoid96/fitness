@@ -123,5 +123,7 @@ function reset2()
 
 document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady() {
+	navigator.vibrate();
     console.log(navigator.vibrate);
+	navigator.vibrate(1000);
 }
