@@ -126,10 +126,9 @@ function onDeviceReady() {
 	navigator.vibrate();
     console.log(navigator.vibrate);
 	navigator.vibrate(1000);
+	document.getElementById('#input').addEventListener('click', function() {
+            navigator.vibrate(1000);
+			document.getElementById('Me').addEventListener('click', function() {
+            navigator.vibrate(1000);
 	
 }
-
-$('#input').click (function){
-	navigator.vibrate(1000);
-	
-};
