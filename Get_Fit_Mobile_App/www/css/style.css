@@ -69,10 +69,7 @@ li {
     display: inline-block;
     padding-top: 17px;
 }
- .ul li a #goals{
-	padding-top:400px;
-	
-}
+
 /* style for links (bottom navigation) */
 a {
 	text-decoration: none;
@@ -104,7 +101,7 @@ div#nav {
 	height: 10%;
 	width: 100%;
 }
-div#main_header {
+div#header {
 	height: 7.5em;
 	background-color: #eeeeee;
 }
@@ -120,51 +117,51 @@ div#timer_position {
 /* Fluid Grid Setup- code inspired from http://1stwebdesigner.com/fluid-grid-layout/ */
 
 
-.container1_12 {
+.container1-12 {
 	width: 08.33%;
 }
 
-.container2_12 {
+.container2-12 {
 	width: 17%;
 }
 
-.container3_12 {
+.container3-12 {
 	width: 25%;
 }
 
-.container4_12 {
+.container4-12 {
 	width: 33.33%;
 }
 
-.container5_12 {
+.container5-12 {
 	width: 42%;
 }
 
-.container6_12 {
+.container6-12 {
 	width: 50%;
 }
 
-.container7_12 {
+.container7-12 {
 	width: 58%;
 }
 
-.container8_12 {
+.container8-12 {
 	width: 67%;
 }
 
-.container9_12 {
+.container9-12 {
 	width: 75%;
 }
 
-.container10_12 {
+.container10-12 {
 	width: 83%;
 }
 
-.container11_12 {
+.container11-12 {
 	width: 92%;
 }
 
-.container12_12 {
+.container12-12 {
 	width: 100%;
 }
 /* End of container */
