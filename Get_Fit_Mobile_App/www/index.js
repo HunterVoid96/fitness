@@ -126,4 +126,10 @@ function onDeviceReady() {
 	navigator.vibrate();
     console.log(navigator.vibrate);
 	navigator.vibrate(1000);
+	
 }
+
+$('#input').click (function){
+	navigator.vibrate(1000);
+	
+};
