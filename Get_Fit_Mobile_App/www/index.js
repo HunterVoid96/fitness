@@ -1,3 +1,4 @@
+/* code for save and load functions inspired and modified from: https://www.youtube.com/watch?v=Jc_Yycz7MEc */
 /* declare save function */
 function save() {
 	/* declare the three input fields for the Me page, and get the ID's for each field and the value*/
