@@ -7,13 +7,13 @@
         version   = "1.0.0">
 
 
-
+<!-- Name of application-->
     <name>Get Fit!</name>
-
+<!-- Application Description-->
     <description>
-   Get Fit! A fitness application that allows you to see how many steps you have taken, distance travelled, the total calories you have burned and more!.
+   Get Fit! A fitness application. This app was created as part of the Mobile Applications Development Assignment 2 project.
     </description>
-
+<!-- Author-->
     <author href="#" email="weeb1_14@uni.worc.ac.uk">
         Ben Weeks
     </author>
@@ -21,7 +21,7 @@
 	
 
 	<access origin="*"/>
-	
+	<!-- icon for application-->
 	<icon src="icon.png"/>
 	
 </widget>

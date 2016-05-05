@@ -120,6 +120,7 @@ function reset2()
 	i=0;
 	document.getElementById("timer_position").innerHTML = (i/divide);
 }
+//code for vibration
 var vibrate = navigator.vibrate || navigator.mozVibrate;
 document.querySelector("#Me").addEventListener("click", function () {
     navigator.vibrate(1000);
