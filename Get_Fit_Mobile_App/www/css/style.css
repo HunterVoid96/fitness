@@ -401,7 +401,7 @@ div#cal_field{
 		
 }
 #red1 {
-	position:absolute;
+	position:fixed;
 	left:900px;
 }
 
