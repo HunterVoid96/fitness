@@ -400,7 +400,10 @@ div#cal_field{
 	height: 30px;
 		
 }
-
+#red1 {
+	position:absolute;
+	left:900px;
+}
 
 /* Styles for input */
 input[type="number"]{ 
