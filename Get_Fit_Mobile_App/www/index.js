@@ -122,6 +122,6 @@ function reset2()
 }
 //code for vibration
 var vibrate = navigator.vibrate || navigator.mozVibrate;
-document.querySelector("#Me").addEventListener("click", function () {
+document.querySelector("#input").addEventListener("click", function () {
     navigator.vibrate(1000);
 }, false);
