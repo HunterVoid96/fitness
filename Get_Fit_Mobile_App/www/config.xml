@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.helloworld"
+        id        = "com.phonegap.getfit"
         version   = "1.0.0">
 
     <!-- versionCode is optional and Android only -->
@@ -18,10 +17,9 @@
     <author href="#" email="weeb1_14@uni.worc.ac.uk">
         Ben Weeks
     </author>
-	<gap:plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />
-	<!-- add plugins required for OAuth.io -->
+		<gap:plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />
 	
-	<!-- give access to all domains in the outside world -->
+	
 
 	<access origin="*"/>
 	
