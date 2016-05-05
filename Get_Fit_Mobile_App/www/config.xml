@@ -19,6 +19,7 @@
     </author>
 	<gap:plugin name="org.apache.cordova.vibration" spec="0.3.13" source="pgb" />
 	<gap:plugin name="cordova-plugin-device-orientation" spec="1.0.1" source="pgb" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" spec="0.6.0" source="pgb" />
 	
 
 	<access origin="*"/>
