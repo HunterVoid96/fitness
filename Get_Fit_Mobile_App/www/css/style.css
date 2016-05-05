@@ -418,7 +418,12 @@ div#cal_field{
 	position:fixed;
 	left:150px;
 }
- 
+ #fbicon {
+	top:400px;
+	position:absolute;
+	left:250px;
+}
+
 #twitter {
 	top:400px;
 	position:absolute;
