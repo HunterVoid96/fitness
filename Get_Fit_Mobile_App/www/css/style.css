@@ -418,12 +418,13 @@ div#cal_field{
 	position:fixed;
 	left:150px;
 }
+/* Position facebook icon on goals page */
  #fbicon {
 	top:400px;
 	position:absolute;
 	left:150px;
 }
-
+/* Position twitter icon on goals page */
 #twitter {
 	top:400px;
 	position:absolute;
