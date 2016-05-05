@@ -418,8 +418,12 @@ div#cal_field{
 	position:fixed;
 	left:150px;
 }
-
-
+ 
+#twitter {
+	top:400px;
+	position:fixed;
+	left:180px;
+}
 
 
 
