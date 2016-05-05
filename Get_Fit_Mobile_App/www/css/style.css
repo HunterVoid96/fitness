@@ -104,6 +104,7 @@ a {
     max-width: 650px;
 	font-size:17px;
 }
+/* style headers */
 h1 {
 	padding-top:40px;
 	font-size: 1.5em;
@@ -129,7 +130,7 @@ div#header {
 	height: 7.5em;
 	background-color: #eeeeee;
 }
-
+/* position of timer */
 div#timer_position {
 	font-size:40px;
 	
