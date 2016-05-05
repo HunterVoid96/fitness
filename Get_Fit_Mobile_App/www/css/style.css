@@ -421,8 +421,8 @@ div#cal_field{
  
 #twitter {
 	top:400px;
-	position:fixed;
-	left:180px;
+	position:absolute;
+	left:190px;
 }
 
 
