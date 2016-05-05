@@ -37,6 +37,7 @@ function del (){
 	localStorage.removeItem('key1');
 	document.getElementById('weightType').value;
 	localStorage.removeItem('key2');
+	//clears the data fields
 	location.reload();
 }
 
@@ -90,6 +91,7 @@ function delz (){
 	localStorage.removeItem('key5');
 	document.getElementById('CaloriesType').value;
 	localStorage.removeItem('key6');
+	//clears the data fields
 	location.reload();
 }
 //timer-stopwatch inspired from: https://www.youtube.com/watch?v=jRhB1IG7uAw
