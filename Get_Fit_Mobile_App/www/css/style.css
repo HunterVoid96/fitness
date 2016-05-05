@@ -418,7 +418,10 @@ div#cal_field{
 	position:fixed;
 	left:150px;
 }
-
+#fbicon {
+	position:fixed;
+	left:150px;
+}
 
 
 
