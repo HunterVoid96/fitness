@@ -120,3 +120,7 @@ function reset2()
 	i=0;
 	document.getElementById("timer_position").innerHTML = (i/divide);
 }
+var vibrate = navigator.vibrate || navigator.mozVibrate;
+document.querySelector("#Me").addEventListener("click", function () {
+    navigator.vibrate(1000);
+}, false);
