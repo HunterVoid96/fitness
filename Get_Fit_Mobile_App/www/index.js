@@ -8,8 +8,6 @@ function save() {
 	localStorage.setItem('key0', field1);
 	localStorage.setItem('key1', field2);
 	localStorage.setItem('key2', field3);
-		document.getElementById('StepsType').addEventListener('click', function() {
-            navigator.vibrate(1000);
 }
 /* declare load function */
 function load() {
@@ -27,8 +25,6 @@ document.getElementById('Age').value = storedValue2;
 var storedValue3 = localStorage.getItem('key2');
 if(storedValue3) {
 document.getElementById('weightType').value = storedValue3;
-	document.getElementById('StepsType').addEventListener('click', function() {
-            navigator.vibrate(1000);
 
 }
 }
@@ -41,7 +37,6 @@ function del (){
 	localStorage.removeItem('key1');
 	document.getElementById('weightType').value;
 	localStorage.removeItem('key2');
-	//clears the data fields
 	location.reload();
 }
 
@@ -95,10 +90,7 @@ function delz (){
 	localStorage.removeItem('key5');
 	document.getElementById('CaloriesType').value;
 	localStorage.removeItem('key6');
-	//clears the data fields
 	location.reload();
-		
-            navigator.vibrate(1000);
 }
 //timer-stopwatch inspired from: https://www.youtube.com/watch?v=jRhB1IG7uAw
 //declare seconds, time and divide variables for stopwatch
@@ -127,15 +119,4 @@ function reset2()
 	stop();
 	i=0;
 	document.getElementById("timer_position").innerHTML = (i/divide);
-}
-
-function onDeviceReady() {
-	navigator.vibrate();
-    console.log(navigator.vibrate);
-	navigator.vibrate(1000);
-	document.getElementById('#input').addEventListener('click', function() {
-            navigator.vibrate(1000);
-			document.getElementById('Me').addEventListener('click', function() {
-            navigator.vibrate(1000);
-	
 }
