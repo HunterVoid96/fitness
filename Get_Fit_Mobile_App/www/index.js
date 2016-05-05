@@ -8,7 +8,6 @@ function save() {
 	localStorage.setItem('key0', field1);
 	localStorage.setItem('key1', field2);
 	localStorage.setItem('key2', field3);
-	navigator.vibrate(1000);
 }
 /* declare load function */
 function load() {
@@ -39,7 +38,6 @@ function del (){
 	document.getElementById('weightType').value;
 	localStorage.removeItem('key2');
 	location.reload();
-	navigator.vibrate(1000);
 }
 
 /* declare save function */
@@ -54,7 +52,6 @@ function savez() {
 	localStorage.setItem('key4', field5);
 	localStorage.setItem('key5', field6);
 	localStorage.setItem('key6', field7);
-	navigator.vibrate(1000);
 }
 
 
@@ -94,8 +91,6 @@ function delz (){
 	document.getElementById('CaloriesType').value;
 	localStorage.removeItem('key6');
 	location.reload();
-	navigator.vibrate(1000);
-	
 }
 //timer-stopwatch inspired from: https://www.youtube.com/watch?v=jRhB1IG7uAw
 //declare seconds, time and divide variables for stopwatch
@@ -124,16 +119,4 @@ function reset2()
 	stop();
 	i=0;
 	document.getElementById("timer_position").innerHTML = (i/divide);
-}
-
-document.addEventListener("deviceready", onDeviceReady, false);
-function onDeviceReady() {
-	navigator.vibrate();
-    console.log(navigator.vibrate);
-	navigator.vibrate(1000);
-	document.getElementById('#input').addEventListener('click', function() {
-            navigator.vibrate(1000);
-			document.getElementById('Me').addEventListener('click', function() {
-            navigator.vibrate(1000);
-	
 }
