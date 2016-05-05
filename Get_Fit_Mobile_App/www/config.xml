@@ -24,7 +24,7 @@
 	
 
 	<access origin="*"/>
-	<acess origin ="https://www.facebook.com/" />
+	
 	<!-- icon for application-->
 	<icon src="icon.png"/>
 	
