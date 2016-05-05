@@ -400,9 +400,10 @@ div#cal_field{
 	height: 30px;
 		
 }
+/* Position red square on fttracker page */
 #red1 {
 	position:fixed;
-	left:130px;
+	left:150px;
 }
 
 /* Styles for input */
